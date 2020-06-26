@@ -1,0 +1,17 @@
+{
+  "name": "train-ticket-server",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "dayjs": "^1.8.13",
+    "express": "^4.16.4",
+    "mocker-api": "^1.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "pm2 start index.js -n mocker",
+    "stop": "pm2 delete mocker"
+  },
+  "keywords": [],
+  "author": "cosyer"
+}
